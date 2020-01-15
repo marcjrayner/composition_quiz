@@ -28,6 +28,16 @@ the same parent, we can treat them as instances of the parent (which can never a
 be instantiated itself)
 
 4. How many 'forms' can an object take when using polymorphism?
+As many as you want in your program. There's no limit
+
+5. Give an example of when you could use polymorphism.
+Morty Smith is a Morty. In a different universe Morty is Evil Morty, and there is also a Cronenburg Morty. Thus we can look at Morty in many ways:
+    * Morty from the original dimension
+    * Evil Morty
+    * Cronenburg Morty
+    * Fascist Morty
+    * Morty Smith (C-132)
+Each Morty is a Morty, but it has different characteristics
 
 5. Give an example of when you could use polymorphism.
 
