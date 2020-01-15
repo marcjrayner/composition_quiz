@@ -49,8 +49,11 @@ instances of larger more complex classes being composed of or built up of these 
 7. When would you use composition? Provide a simple example in Java.
 A car might be composed of an Engine, Wheels, Chassis and other components, each component would
 be of its particular class with specific methods, the larger car object fits the pieces together, directing
-them to do all their jobs together, which allows the car to drive. 
+them to do all their jobs together, which allows the car to drive.
 
 8. What is/are the advantage(s) of using composition?
+We can avoid the potential tangled mess of using too much inheritance of too many
+behaviours. We can simply say an object -has a- other object which does that behaviour.
+That way, we can share more specific relevant behaviours we need. 
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
