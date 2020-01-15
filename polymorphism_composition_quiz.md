@@ -21,11 +21,14 @@ accepts IFly as its required type.
 
 
 3. What can we use to implement polymorphism in Java?
+
+- We can use interfaces - we can have many different classes which, if they all implement
 a given interface, can be treated as instances of that interface, even though the objects
 may have totally different functionality from one another.
 - We can also use Abstract classes - if multiple different classes are all children of
 the same parent, we can treat them as instances of the parent (which can never actually
 be instantiated itself)
+
 
 4. How many 'forms' can an object take when using polymorphism?
 As many as you want in your program. There's no limit
@@ -37,13 +40,15 @@ Morty Smith is a Morty. In a different universe Morty is Evil Morty, and there i
     * Cronenburg Morty
     * Fascist Morty
     * Morty Smith (C-132)
-Each Morty is a Morty, but it has different characteristics
+
+Each Morty is a Morty from a multiverse of near infinite different Morty's, each has different characteristics
+as every possibile outcome has played out in the multiverse. Each different Morty class can be treated as though it were of type Morty (the parent or interface used to provide the common functionality across all child Morty's)
 
 
 # Composition
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
-Compsition means having instances small classes each doing their own particular specific job, then having
+Composition means having instances small classes each doing their own particular specific job, then having
 instances of larger more complex classes being composed of or built up of these smaller objects
 
 7. When would you use composition? Provide a simple example in Java.
