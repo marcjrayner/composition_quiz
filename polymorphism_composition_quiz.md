@@ -54,6 +54,7 @@ them to do all their jobs together, which allows the car to drive.
 8. What is/are the advantage(s) of using composition?
 We can avoid the potential tangled mess of using too much inheritance of too many
 behaviours. We can simply say an object -has a- other object which does that behaviour.
-That way, we can share more specific relevant behaviours we need. 
+That way, we can share more specific relevant behaviours we need.
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
+Java perfoms automatic garbage collection - any unreferenced objects are erased from memory.
