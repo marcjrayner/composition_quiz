@@ -21,6 +21,11 @@ accepts IFly as its required type.
 
 
 3. What can we use to implement polymorphism in Java?
+a given interface, can be treated as instances of that interface, even though the objects
+may have totally different functionality from one another.
+- We can also use Abstract classes - if multiple different classes are all children of
+the same parent, we can treat them as instances of the parent (which can never actually
+be instantiated itself)
 
 4. How many 'forms' can an object take when using polymorphism?
 
