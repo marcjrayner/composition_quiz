@@ -6,6 +6,19 @@
 It means an object can take many forms.
 
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+It means we can, for example, have an ArrayList of a particular class of objects, and we could add
+various different class objects to the array. We can treat them all as being the same class.
+
+From the wizard / fly example:
+
+public IFly getRide(){
+      return this.ride;
+  }
+
+The ride in this case could be one of three totally different classes. But since
+all of the classes implement IFly, they can all be passed into a function which
+accepts IFly as its required type.
+
 
 3. What can we use to implement polymorphism in Java?
 
