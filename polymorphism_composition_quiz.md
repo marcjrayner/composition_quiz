@@ -39,11 +39,12 @@ Morty Smith is a Morty. In a different universe Morty is Evil Morty, and there i
     * Morty Smith (C-132)
 Each Morty is a Morty, but it has different characteristics
 
-5. Give an example of when you could use polymorphism.
 
 # Composition
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
+Compsition means having instances small classes each doing their own particular specific job, then having
+instances of larger more complex classes being composed of or built up of these smaller objects
 
 7. When would you use composition? Provide a simple example in Java.
 
